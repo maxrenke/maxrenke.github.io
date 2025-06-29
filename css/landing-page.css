@@ -98,19 +98,19 @@ h6 {
 .content-section-a {
     padding: 50px 0;
     background-color: #121212;
-    color: #f8f8f8;
+    color: #cccccc;
 }
 
 .content-section-a h2 {
-    color: #f8f8f8;
+    color: #cccccc;
 }
 
 .content-section-a a {
-    color: #f8f8f8;
+    color: #aaaaaa;
 }
 
 .content-section-a a:hover {
-    color: #cccccc;
+    color: #888888;
 }
 
 .content-section-b {
