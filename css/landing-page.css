@@ -195,3 +195,9 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+.fa-discord,
+.fa-github,
+.fa-linkedin-in {
+    color: #333 !important;
+}
