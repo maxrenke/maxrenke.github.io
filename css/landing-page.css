@@ -8,7 +8,7 @@ body,
 html {
     width: 100%;
     height: 100%;
-    background-color: #1d1e20;
+    background-color: #121212;
 }
 
 body,
@@ -165,12 +165,12 @@ h6 {
 
 footer {
     padding: 50px 0;
-    background-color: #1d1e20;
+    background-color: #121212;
     color: #f8f8f8;
 }
 
 .navbar-default {
-    background-color: #1d1e20;
+    background-color: #121212;
     border-color: #1d1e20;
 }
 
