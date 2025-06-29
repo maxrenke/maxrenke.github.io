@@ -48,3 +48,15 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('blog-feed').innerHTML = '<p>Failed to load blog posts.</p>';
         });
 });
+
+function BattleNetClipBoard() {
+	var text = "StupidGeek#1555";
+    Copied = text.createTextRange();
+    Copied.execCommand("copy", false, null);
+}
+
+function GuildWarsClipBoard() {
+	var text = "Maxwell Renke.6240";
+    Copied = text.createTextRange();
+    Copied.execCommand("copy", false, null);
+}
