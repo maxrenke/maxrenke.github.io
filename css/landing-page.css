@@ -97,13 +97,39 @@ h6 {
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #f8f8f8;
+    background-color: #121212;
+    color: #f8f8f8;
+}
+
+.content-section-a h2 {
+    color: #f8f8f8;
+}
+
+.content-section-a a {
+    color: #f8f8f8;
+}
+
+.content-section-a a:hover {
+    color: #cccccc;
 }
 
 .content-section-b {
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
+    background-color: #f8f8f8;
+}
+
+.content-section-b h2 {
+    color: #333;
+}
+
+.content-section-b a {
+    color: #337ab7;
+}
+
+.content-section-b a:hover {
+    color: #23527c;
 }
 
 .section-heading {
