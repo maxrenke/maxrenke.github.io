@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
     // Fetch Blog Posts (using RSS2JSON for CORS)
-    const blogRssUrl = 'https://blog.maxrenke.com/feed/';
+    const blogRssUrl = 'https://blog.maxrenke.com/feed.xml';
     const rssToJsonApi = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(blogRssUrl)}`;
 
     fetch(rssToJsonApi)
