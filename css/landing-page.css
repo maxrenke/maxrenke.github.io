@@ -320,6 +320,23 @@ h6 {
     text-decoration: underline;
 }
 
+/* Loading states */
+.loading-text {
+    color: #999;
+    font-style: italic;
+    text-align: center;
+}
+
+.loading-text i {
+    margin-right: 8px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 .banner h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);

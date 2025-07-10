@@ -12,6 +12,12 @@
     <meta name="author" content="Max Renke">
 
     <title>Max Renke</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="css/bootstrap.min.css" as="style">
+    <link rel="preload" href="css/landing-page.css" as="style">
+    <link rel="preload" href="img/pexels-cottonbro-6318272.jpg" as="image">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" as="style" crossorigin>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -21,7 +27,7 @@
 
     <!-- Custom Fonts -->
     <link href="css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 
     
 
@@ -72,14 +78,14 @@
                             <li>
 								<a href="mailto:maxrenke@gmail.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-solid fa-reply fa-fw"></i> <span class="network-name">Email</span></a>
 							</li>
-							<li>
-                                <a href="https://discordapp.com/users/85038934643470336" target="_blank" class="btn btn-default btn-lg"><img src="fontawesome-free-5.15.4-web/svgs/brands/discord.svg" alt="Discord" style="height: 1.1em; width: 1.1em; margin-right: 5px;"> <span class="network-name">Discord</span></a>
+                            <li>
+                                <a href="https://discordapp.com/users/85038934643470336" target="_blank" class="btn btn-default btn-lg"><i class="fab fa-discord fa-fw"></i> <span class="network-name">Discord</span></a>
                             </li>
 							<li>
-                                <a href="https://github.com/maxrenke/highlights" target="_blank" class="btn btn-default btn-lg"><img src="fontawesome-free-5.15.4-web/svgs/brands/github.svg" alt="Github" style="height: 1.1em; width: 1.1em; margin-right: 5px;"> <span class="network-name">Github</span></a>
+                                <a href="https://github.com/maxrenke/highlights" target="_blank" class="btn btn-default btn-lg"><i class="fab fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                             </li>
                             <li>
-                                <a href="http://www.linkedin.com/in/maxrenke" target="_blank" class="btn btn-default btn-lg"><img src="fontawesome-free-5.15.4-web/svgs/brands/linkedin-in.svg" alt="Linkedin" style="height: 1.1em; width: 1.1em; margin-right: 5px;"> <span class="network-name">Linkedin</span></a>
+                                <a href="http://www.linkedin.com/in/maxrenke" target="_blank" class="btn btn-default btn-lg"><i class="fab fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
                             </li>
 							<hr class="intro-divider">
 							<li>
@@ -187,11 +193,11 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery.js" defer></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/widgets.js"></script>
+    <script src="js/bootstrap.min.js" defer></script>
+    <script src="js/widgets.js" defer></script>
 
 </body>
 
