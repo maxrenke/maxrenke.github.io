@@ -131,14 +131,106 @@ h6 {
     color: #23527c;
 }
 
+/* Section Styling */
 .section-heading {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    padding: 0 15px;
+}
+
+.section-title {
+    font-size: 2.5em;
+    color: #f8f8f8;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.section-divider {
+    width: 100px;
+    border: 0;
+    border-top: 3px solid #337ab7;
+    margin: 20px auto;
+}
+
+.section-subtitle {
+    font-size: 1.2em;
+    color: #cccccc;
+    margin-bottom: 0;
+    font-weight: 300;
 }
 
 .section-heading-spacer {
     float: left;
     width: 200px;
     border-top: 3px solid #f8f8f8;
+}
+
+/* Content Cards */
+.content-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.content-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    border-color: rgba(51, 122, 183, 0.5);
+}
+
+.card-header {
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.card-icon {
+    font-size: 2em;
+    color: #337ab7;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.card-title {
+    font-size: 1.3em;
+    color: #f8f8f8;
+    margin: 0;
+    font-weight: 600;
+}
+
+.card-body {
+    padding: 20px;
+    color: #cccccc;
+}
+
+.card-body ul {
+    margin: 0;
+}
+
+.card-body li {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.card-body li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.card-body a {
+    color: #337ab7;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.card-body a:hover {
+    color: #23527c;
+    text-decoration: underline;
 }
 
 .banner h2 {
