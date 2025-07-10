@@ -8,10 +8,32 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Max Renke's personal website and portfolio.">
+    <meta name="description" content="Max Renke - Offensive Security Engineer, Ex-Microsoft, Technical Program Manager, and Vulnerability Researcher. Explore my portfolio, blog posts, and security research.">
     <meta name="author" content="Max Renke">
+    <meta name="keywords" content="Max Renke, offensive security, security engineer, Microsoft, vulnerability research, cybersecurity, technical program manager, security consultant">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="30 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://maxrenke.github.io/">
+    <meta property="og:title" content="Max Renke - Offensive Security Engineer & Researcher">
+    <meta property="og:description" content="Offensive Security Engineer, Ex-Microsoft, Technical Program Manager, and Vulnerability Researcher. Explore my portfolio, blog posts, and security research.">
+    <meta property="og:image" content="https://maxrenke.github.io/img/pexels-cottonbro-6318272.jpg">
+    <meta property="og:site_name" content="Max Renke Portfolio">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://maxrenke.github.io/">
+    <meta property="twitter:title" content="Max Renke - Offensive Security Engineer & Researcher">
+    <meta property="twitter:description" content="Offensive Security Engineer, Ex-Microsoft, Technical Program Manager, and Vulnerability Researcher.">
+    <meta property="twitter:image" content="https://maxrenke.github.io/img/pexels-cottonbro-6318272.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://maxrenke.github.io/">
 
-    <title>Max Renke</title>
+    <title>Max Renke - Offensive Security Engineer & Researcher</title>
     
     <!-- Preload critical resources -->
     <link rel="preload" href="css/bootstrap.min.css" as="style">
@@ -32,26 +54,60 @@
     
 
     <link rel="icon" href="/favicon.ico">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Max Renke",
+        "jobTitle": "Offensive Security Engineer",
+        "description": "Offensive Security Engineer, Ex-Microsoft, Technical Program Manager, and Vulnerability Researcher",
+        "url": "https://maxrenke.github.io/",
+        "sameAs": [
+            "https://www.linkedin.com/in/maxrenke",
+            "https://github.com/maxrenke",
+            "http://blog.maxrenke.com"
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Security Consulting"
+        },
+        "alumniOf": {
+            "@type": "Organization",
+            "name": "Microsoft"
+        },
+        "knowsAbout": [
+            "Offensive Security",
+            "Vulnerability Research",
+            "Cybersecurity",
+            "Technical Program Management",
+            "Security Engineering"
+        ]
+    }
+    </script>
 </head>
 
 <body>
+    <!-- Skip link for keyboard navigation -->
+    <a href="#widgets-section" class="skip-link">Skip to main content</a>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation" aria-label="Main navigation">
         <div class="container topnav">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" aria-controls="bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#"></a>
+                <a class="navbar-brand topnav" href="#" aria-label="Max Renke - Home"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right" role="menubar">
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -61,62 +117,60 @@
 
 
     <!-- Header -->
-    <a name="about"></a>
-    <div class="intro-header">
+    <header id="about" class="intro-header" role="banner">
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
                         <h1>Max Renke</h1>
                         <p class="lead responsive-tagline">Offensive Security Engineer | Ex-Microsoft | Technical Program Manager | Vulnerability Researcher</p>
-						<hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
+						<hr class="intro-divider" aria-hidden="true">
+                        <nav aria-label="Social media and contact links">
+                            <ul class="list-inline intro-social-buttons">
 							<li>
-								<a href="https://zcal.co/maxrenke/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-solid fa-calendar-alt fa-fw"></i> <span class="network-name">Schedule a Call</span></a>
+								<a href="https://zcal.co/maxrenke/" target="_blank" rel="noopener" class="btn btn-default btn-lg" aria-label="Schedule a call with Max Renke"><i class="fa fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i> <span class="network-name">Schedule a Call</span></a>
 							</li>
                             <li>
-								<a href="mailto:maxrenke@gmail.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-solid fa-reply fa-fw"></i> <span class="network-name">Email</span></a>
+								<a href="mailto:maxrenke@gmail.com" class="btn btn-default btn-lg" aria-label="Send email to Max Renke"><i class="fa fa-solid fa-reply fa-fw" aria-hidden="true"></i> <span class="network-name">Email</span></a>
 							</li>
                             <li>
-                                <a href="https://discordapp.com/users/85038934643470336" target="_blank" class="btn btn-default btn-lg"><i class="fab fa-discord fa-fw"></i> <span class="network-name">Discord</span></a>
+                                <a href="https://discordapp.com/users/85038934643470336" target="_blank" rel="noopener" class="btn btn-default btn-lg" aria-label="Contact Max Renke on Discord"><i class="fab fa-discord fa-fw" aria-hidden="true"></i> <span class="network-name">Discord</span></a>
                             </li>
 							<li>
-                                <a href="https://github.com/maxrenke/highlights" target="_blank" class="btn btn-default btn-lg"><i class="fab fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                                <a href="https://github.com/maxrenke/highlights" target="_blank" rel="noopener" class="btn btn-default btn-lg" aria-label="View Max Renke's GitHub profile"><i class="fab fa-github fa-fw" aria-hidden="true"></i> <span class="network-name">Github</span></a>
                             </li>
                             <li>
-                                <a href="http://www.linkedin.com/in/maxrenke" target="_blank" class="btn btn-default btn-lg"><i class="fab fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                                <a href="http://www.linkedin.com/in/maxrenke" target="_blank" rel="noopener" class="btn btn-default btn-lg" aria-label="Connect with Max Renke on LinkedIn"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i> <span class="network-name">Linkedin</span></a>
                             </li>
-							<hr class="intro-divider">
-							<li>
-                                <a href="/Max Renke CV.pdf" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-solid fa-file fa-fw"></i> <span class="network-name">Download Resume</span></a>
-                            </li>
-							<li>
-								<a href="http://blog.maxrenke.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-solid fa-rss-square"></i> <span class="network-name">Blog</span></a>
-							</li>
-							<li>
-								<a href="https://github.com/maxrenke/highlights" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-solid fa-star"></i> <span class="network-name">Highlights</span></a>
-							</li>
-                        </ul>
+								<hr class="intro-divider" aria-hidden="true">
+								<li>
+                                    <a href="/Max Renke CV.pdf" target="_blank" class="btn btn-default btn-lg" aria-label="Download Max Renke's resume (PDF)"><i class="fa fa-solid fa-file fa-fw" aria-hidden="true"></i> <span class="network-name">Download Resume</span></a>
+                                </li>
+								<li>
+									<a href="http://blog.maxrenke.com" target="_blank" class="btn btn-default btn-lg" aria-label="Visit Max Renke's blog"><i class="fa fa-solid fa-rss-square" aria-hidden="true"></i> <span class="network-name">Blog</span></a>
+								</li>
+								<li>
+									<a href="https://github.com/maxrenke/highlights" target="_blank" class="btn btn-default btn-lg" aria-label="View Max Renke's project highlights on GitHub"><i class="fa fa-solid fa-star" aria-hidden="true"></i> <span class="network-name">Highlights</span></a>
+								</li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
-
         </div>
         <!-- /.container -->
-
-    </div>
+    </header>
     <!-- /.intro-header -->
 
     <!-- Main Content Section -->
-    <div class="content-section-b" id="widgets-section">
+    <main class="content-section-b" id="widgets-section" role="main">
         <div class="container">
             <!-- Section Header -->
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="section-heading">
                         <h2 class="section-title">Latest Activity & Projects</h2>
-                        <hr class="section-divider">
+                        <hr class="section-divider" aria-hidden="true">
                         <p class="section-subtitle">Stay updated with my latest work, research, and contributions</p>
                     </div>
                 </div>
@@ -124,45 +178,45 @@
             
             <!-- Content Cards -->
             <div class="row">
-                <div class="col-lg-4">
+                <section class="col-lg-4" aria-labelledby="blog-section-title">
                     <div class="content-card">
                         <div class="card-header">
-                            <i class="fas fa-blog card-icon"></i>
-                            <h3 class="card-title">Latest Blog Posts</h3>
+                            <i class="fas fa-blog card-icon" aria-hidden="true"></i>
+                            <h3 class="card-title" id="blog-section-title">Latest Blog Posts</h3>
                         </div>
                         <div class="card-body">
-                            <div id="blog-feed"></div>
+                            <div id="blog-feed" aria-live="polite" aria-label="Loading blog posts"></div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4">
+                </section>
+                <section class="col-lg-4" aria-labelledby="github-section-title">
                     <div class="content-card">
                         <div class="card-header">
-                            <i class="fab fa-github card-icon"></i>
-                            <h3 class="card-title">GitHub Activity</h3>
+                            <i class="fab fa-github card-icon" aria-hidden="true"></i>
+                            <h3 class="card-title" id="github-section-title">GitHub Activity</h3>
                         </div>
                         <div class="card-body">
-                            <div id="github-repos"></div>
+                            <div id="github-repos" aria-live="polite" aria-label="Loading GitHub repositories"></div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4">
+                </section>
+                <section class="col-lg-4" aria-labelledby="projects-section-title">
                     <div class="content-card">
                         <div class="card-header">
-                            <i class="fas fa-star card-icon"></i>
-                            <h3 class="card-title">Featured Projects</h3>
+                            <i class="fas fa-star card-icon" aria-hidden="true"></i>
+                            <h3 class="card-title" id="projects-section-title">Featured Projects</h3>
                         </div>
                         <div class="card-body">
-                            <div id="featured-projects">
+                            <div id="featured-projects" aria-label="Featured projects list">
                                 <ul class="list-unstyled">
                                 </ul>
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
         </div>
-    </div>
+    </main>
 
     <!-- Footer -->
     <footer>
